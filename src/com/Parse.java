@@ -17,7 +17,7 @@ public class Parse {
      */
     public static void main(String[] args) {
         if(args.length!=3){
-            System.out.println("请输入3个参数");
+            System.out.println("分别输入源文件 查重文件 输出文件");
             return;
         }
         System.out.println("源文件："+args[0]+"  比对文件："+args[1]);

@@ -36,7 +36,7 @@ public class test {
                     basePath + fileName,
                     resPath
             };
-            System.out.println("测试参数："+ Arrays.toString(args));
+            System.out.println("参数："+ Arrays.toString(args));
             Parse.main(args);
             System.out.println();
         }
@@ -54,7 +54,7 @@ public class test {
                 "wrong_target_path",
                 "wrong_res_path",
         };
-        System.out.println("测试参数："+ Arrays.toString(args));
+        System.out.println("参数："+ Arrays.toString(args));
         Parse.main(args);
     }
     /**
@@ -65,7 +65,7 @@ public class test {
         String[] args={
                 "wrong_args_length",
         };
-        System.out.println("测试参数："+ Arrays.toString(args));
+        System.out.println("参数："+ Arrays.toString(args));
         Parse.main(args);
     }
 
