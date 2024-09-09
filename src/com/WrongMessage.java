@@ -1,8 +1,10 @@
+package com;
+
 /**
  * @version 1.0
  */
 
-public class Wrong {
+public class WrongMessage {
     /**
      *
      * @param path 打开文件路径

@@ -1,6 +1,10 @@
-/**
+package com; /**
  * @version 1.0
  */
+
+
+import com.Check;
+
 import java.util.SortedSet;
 
 public class Compare {
@@ -10,14 +14,13 @@ public class Compare {
      * @param targetArticle 目标文章
      * @return 相同特征个数
      */
-    public static int compare(Check originArticle,Check targetArticle){
+    public static int compare(Check originArticle, Check targetArticle){
         //相同特征个数
         int countSameWord=0;
         //获取源文章和目标文章的特征
         SortedSet<Integer> origin=originArticle.getFeature();
         SortedSet<Integer> target=targetArticle.getFeature();
 
-        //由于特征是以整数形式从小到大排序存储到集合中的
         //采用双指针法，计算2个整数集合共同元素的个数
 
         //orgin文章指针

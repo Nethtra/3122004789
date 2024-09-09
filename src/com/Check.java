@@ -1,4 +1,4 @@
-/**
+package com; /**
  * @version 1.0
  */
 
@@ -77,7 +77,7 @@ public class Check {
             file.close();
         } catch (IOException e) {
             //输出错误信息
-            Wrong.openFileError(pathname);
+            WrongMessage.openFileError(pathname);
             throw e;
         } finally {
             //回收reader
